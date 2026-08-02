@@ -59,19 +59,6 @@ body.legal-page {
   transform: translateY(0);
 }
 
-.draft-banner {
-  padding: 0.65rem 1.25rem;
-  border-bottom: 1px solid #e0a69e;
-  color: #641d15;
-  background: var(--legal-warning-bg);
-  font-family: "IBM Plex Mono", ui-monospace, SFMono-Regular, Consolas, monospace;
-  font-size: 0.78rem;
-  font-weight: 500;
-  letter-spacing: 0.035em;
-  text-align: center;
-  text-transform: uppercase;
-}
-
 .legal-header {
   border-bottom: 1px solid var(--legal-line);
   background: rgba(255, 255, 255, 0.94);
@@ -438,11 +425,6 @@ body.legal-page {
     font-size: 16px;
   }
 
-  .draft-banner {
-    padding-inline: 0.75rem;
-    font-size: 0.68rem;
-  }
-
   .legal-header-actions {
     gap: 0.5rem;
   }
@@ -476,7 +458,6 @@ body.legal-page {
 }
 
 @media print {
-  .draft-banner,
   .legal-header,
   .legal-nav-wrap,
   .legal-toc {
